@@ -18,14 +18,14 @@ header{
 
 #titulohistooria{
     display: flex;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 70px;
     justify-content: center;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-size: 100px;
     font-style: normal;
-    
+    text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
       
       
 }
@@ -48,7 +48,6 @@ nav a:hover{
     width: 100%;
     display: flex;
     justify-content: space-around;
-    text-decoration: underline;
     font-weight: bold;
     text-align: center;
     font-family: "Montserrat", sans-serif;
@@ -63,7 +62,6 @@ nav a:hover{
     margin-top: 10px;
     margin-left: 50px;
     display: flex;
-    text-decoration: underline;
     font-weight: bold;
     text-align: center;
     font-family: "Montserrat", sans-serif;
@@ -73,7 +71,6 @@ nav a:hover{
     font-size: 20px;
     margin-top: 10px;
     display: flex;
-    text-decoration: underline;
     font-weight: bold;
     text-align: center;
     font-family: "Montserrat", sans-serif;
@@ -83,7 +80,6 @@ nav a:hover{
     font-size: 20px;
     margin-top: 10px;
     display: flex;
-    text-decoration: underline;
     font-weight: bold;
     text-align: center;
     font-family: "Montserrat", sans-serif;

@@ -18,18 +18,25 @@ header{
 
 #titulohistooria{
   display: flex;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 70px;
   justify-content: center;
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
   font-size: 100px;
   font-style: normal;
-  
+  text-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
+nav a{
+  transition-duration: 0.5s;
+  text-decoration: none;
+  color: white;
 }
 nav a:hover{
-  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
-            animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+   /* -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+     animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both; */
+    scale: 1.1;
+            
 }
 #botoms{
   background-color: rgb(34, 34, 34);
@@ -37,7 +44,6 @@ nav a:hover{
   width: 100%;
   display: flex;
   justify-content: space-around;
-  text-decoration: underline;
   font-weight: bold;
   text-align: center;
   font-family: "Montserrat", sans-serif;
@@ -52,7 +58,6 @@ nav a:hover{
   margin-top: 10px;
   margin-left: 50px;
   display: flex;
-  text-decoration: underline;
   font-weight: bold;
   text-align: center;
   font-family: "Montserrat", sans-serif;
@@ -62,7 +67,6 @@ nav a:hover{
   font-size: 20px;
   margin-top: 10px;
   display: flex;
-  text-decoration: underline;
   font-weight: bold;
   text-align: center;
   font-family: "Montserrat", sans-serif;
@@ -72,7 +76,6 @@ nav a:hover{
   font-size: 20px;
   margin-top: 10px;
   display: flex;
-  text-decoration: underline;
   font-weight: bold;
   text-align: center;
   font-family: "Montserrat", sans-serif;
