@@ -1,0 +1,21 @@
+/* variables.css */
+:root {
+  /* Cores */
+  --primary-color: #010405;
+  --secondary-color: #2ecc71;
+  --background-color: #f4f4f4;
+  --text-color: #333;
+  --fundo: #d9d9d9;
+  /* Cor para o bloco 1 */
+
+  @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,
+  wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+
+
+
+  --font-primary: 'Roboto', sans-serif;
+  --font-secondary: 'Lora', serif;
+  
+  --padding-default: 16px;
+  --margin-default: 16px;
+}
