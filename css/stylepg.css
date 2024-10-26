@@ -25,7 +25,6 @@ header{
 #titulohistooria{
   display: flex;
   color: rgb(255, 255, 255);
-  font-size: 70px;
   justify-content: center;
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
@@ -109,30 +108,38 @@ nav a {
 .image-gallery {
   display: flex;
   justify-content: space-between;
-  margin: 0px;
   overflow: hidden;
+  margin-top: 150px;
+  height: 200px;
 }
 
 .image-box {
-  width: 30%;
-  height: 200px; /* Tamanho das imagens */
-  margin: 0px; /* Espaçamento entre as imagens */
-  overflow: hidden;
-  box-shadow: #333 100%;
+  width: 33,3%; 
+  height: 100%; 
+  border: 1px solid #333;
 }
 
 h2 {
   text-align: center;
   margin: 20px 0;
   color: green;
+  background-color: #fff;
+  width: 415px;
+  display: flex;
+  margin-left: 230px;
 }
-map{
-  color:aqua;
-  width: 80px;
-  height:80px;
-  justify-content: center;
-  align-items: center;
-  
+#bloco{
+  height: 250px ;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#map{
+  display: flex;
+  width: 300px;
+  height: 200px; 
+  border: 1px solid black;
+  align-content: center;
+  border-radius: 10px;
 }
 
 .side-images {
@@ -147,13 +154,27 @@ map{
   width: 150px; 
   height: 150px; 
   border-radius: 10px; 
-
+  margin-top: 20px;
 }
+
+.side-titulo{
+  color: black;
+  font-weight: 100;
+  width: 100px;
+  font-size: 20px;
+}
+
+.side-text{
+  color: black;
+  font-size: 10px
+}
+
+
 .large-image {
   display: flex;
   width: 400px; /* ta zuado*/
   height:400px; /* arruma esssa poha */
-  border-radius: 10px; /* Bordas arredondadas */
+  border-radius: 10px; 
   overflow: hidden;
   position: relative;
 }
@@ -162,8 +183,6 @@ map{
   align-items: flex-end;
  color:#333;
 }
-
-
 
 footer {
   display:grid;
