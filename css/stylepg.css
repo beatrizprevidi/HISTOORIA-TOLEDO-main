@@ -1,11 +1,11 @@
 @import url(css/variaveis.css);
 body {
-
-  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   color: #fff;
   background-color:#d9d9d9;
+  overflow-x: hidden;
+  
 }
 
 nav {
@@ -107,19 +107,19 @@ nav a {
 
 .image-gallery {
   display: flex;
-  justify-content: space-between;
   overflow: hidden;
   margin-top: 150px;
   height: 200px;
-}
-
-.image-box {
-  width: 33,3%; 
-  height: 100%; 
   border: 1px solid #333;
 }
 
-h2 {
+.image-box {
+  width: 33,4%; 
+  height: 100%; 
+  
+}
+
+#conheca {
   text-align: center;
   margin: 20px 0;
   color: green;
@@ -127,27 +127,26 @@ h2 {
   width: 415px;
   display: flex;
   margin-left: 230px;
+  margin-top: 60px;
 }
 #bloco{
   height: 250px ;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 30px;
+  margin-right: 400px;
 }
 #map{
-  display: flex;
   width: 300px;
-  height: 200px; 
-  border: 1px solid black;
+  height: 300px; 
   align-content: center;
-  border-radius: 10px;
+  margin-top: 50px;
+  border: 1px solid #333;
 }
 
 .side-images {
   display: flex;
   justify-content: space-between;
   margin: 20px 0;
-  margin-inline-end: 20px;/*arruma essa parada pra fica no meio*/
-  margin-inline-start: 20px;
+
 }
 
 .side-image {
@@ -155,33 +154,51 @@ h2 {
   height: 150px; 
   border-radius: 10px; 
   margin-top: 20px;
+  margin-left: 30px;
+}
+
+.section{
+  width: 300px;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .side-titulo{
   color: black;
   font-weight: 100;
-  width: 100px;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 .side-text{
   color: black;
-  font-size: 10px
+  font-size: 10px;
 }
 
-
-.large-image {
+#grafico{
+  height: 500px;
+  width: 1000px;
+  justify-content: flex-end;
   display: flex;
-  width: 400px; /* ta zuado*/
-  height:400px; /* arruma esssa poha */
-  border-radius: 10px; 
-  overflow: hidden;
-  position: relative;
 }
-#forma{
-  display: grid;
-  align-items: flex-end;
- color:#333;
+#forma figcaption{
+  color: black;
+  width: 250px;
+  margin-top: 0;
+  display: flex;
+  
+ 
+}
+#toledo{
+  font-size: 30px;
+  display: flex;
+  
+ 
+}
+#descricao{
+  font-weight: 100;
+  font-size: 10px ;
+  display: flex;
 }
 
 footer {
