@@ -202,6 +202,7 @@ nav a {
 }
 
 footer {
+  color: white;
   display:grid;
   row-gap: 2%;
   background-color: #333;
