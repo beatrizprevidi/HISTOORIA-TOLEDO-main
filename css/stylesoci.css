@@ -113,7 +113,10 @@ img {
   margin-right: 50px;
 }
 #sidetext2{
-  
+  margin-right: 30px;
+  color: white;
+  width: 300px;
+  font-size: 25px;
 }
 
 footer {
