@@ -108,7 +108,7 @@ nav a {
 .image-gallery {
   display: flex;
   overflow: hidden;
-  margin-top: 150px;
+  margin-top:25px;
   height: 200px;
   border: 1px solid #333;
 }
@@ -176,9 +176,11 @@ nav a {
 }
 
 #grafico{
-  height: 500px;
-  width: 1000px;
-  margin-left: 80px;
+  display:grid;
+  justify-content: flex-end;
+  height: 100%;
+  width: 100%;
+
 }
 
 #forma{
