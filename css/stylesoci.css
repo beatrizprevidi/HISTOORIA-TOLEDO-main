@@ -86,24 +86,34 @@ nav a:hover{
   margin-bottom: 90px;
   justify-content: center;
 }
+
 img {
   width: 350px;
   border-radius: 10px;
-
 }
+
 #side1{
   display: flex;
-
 }
-#sideimage1{
 
+#sideimage1{
   margin-left: 50px;
 }
+
 #sidetext1{
   margin-left: 30px;
   color: white;
   width: 300px;
   font-size: 25px;
+}
+#side2{
+  display: flex;
+}
+#sideimage2{
+  margin-right: 50px;
+}
+#sidetext2{
+  
 }
 
 footer {

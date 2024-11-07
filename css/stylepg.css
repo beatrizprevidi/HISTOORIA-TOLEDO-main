@@ -178,27 +178,29 @@ nav a {
 #grafico{
   height: 500px;
   width: 1000px;
-  justify-content: flex-end;
+  margin-left: 80px;
+}
+
+#forma{
   display: flex;
 }
+
 #forma figcaption{
   color: black;
   width: 250px;
-  margin-top: 0;
-  display: flex;
   
- 
 }
+
 #toledo{
   font-size: 30px;
-  display: flex;
-  
- 
+
+
 }
+
 #descricao{
   font-weight: 100;
   font-size: 10px ;
-  display: flex;
+ 
 }
 
 footer {
