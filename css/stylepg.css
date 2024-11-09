@@ -135,10 +135,10 @@ nav a {
   margin-right: 400px;
 }
 #map{
-  width: 300px;
-  height: 300px; 
+  width: 60vw;
+  height:60vh; 
   align-content: center;
-  margin-top: 50px;
+  margin-top: 150px;
   border: 1px solid #333;
 }
 
@@ -172,38 +172,65 @@ nav a {
 
 .side-text{
   color: black;
-  font-size: 10px;
+  font-size: 13px;
 }
 
-#grafico{
-  display:grid;
-  justify-content: flex-end;
-  height: 100%;
-  width: 100%;
-
+#forma {
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 40px; 
+  align-items: center; 
+  margin: 20px;
 }
 
-#forma{
-  display: flex;
-}
-
-#forma figcaption{
-  color: black;
-  width: 250px;
+figure {
   
 }
-
-#toledo{
-  font-size: 30px;
-
-
-}
-
-#descricao{
-  font-weight: 100;
-  font-size: 10px ;
+/*A IMAGEM E TÃO GRANDE QUA BUGA O SITE ELA ESCAPA DO CONTAINER DA DIV E POR ISSO GERA CONFLITO COM O FOOTER EO TEXTO DO LADO*/
+.grafico {
+  display: flex;
+  height: 100vh;
+  width: 100vw; 
  
 }
+
+#toledo {
+  grid-column: 1; 
+  justify-self: start; 
+  font-size: 30px;
+  font-weight: bold;
+}
+#todotexto{
+  margin-left: 10px;
+  margin-bottom: 20%;
+}
+#descricao {
+  grid-column: 1; 
+  justify-self: start; 
+  font-weight: 100;
+  font-size: 20px;
+  text-align: justify;
+  margin: 2% 4%;
+  max-width: 400px;
+}
+
+
+@media (max-width: 768px) {
+  #forma {
+      grid-template-columns: 1fr; 
+  }
+
+  #grafico {
+      justify-self: center; 
+  }
+
+  #toledo, #descricao {
+      justify-self: center; 
+      text-align: center;
+  }
+}
+/*tentativa de deixar responsivo*/
+
 
 footer {
   color: white;
