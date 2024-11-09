@@ -82,6 +82,7 @@ nav a:hover{
     padding: 20px;
 }
 .titulo{
+    margin-top: 20vh;
     color: white;
     display: grid;
     text-align: center;

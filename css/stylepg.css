@@ -108,7 +108,7 @@ nav a {
 .image-gallery {
   display: flex;
   overflow: hidden;
-  margin-top: 150px;
+  margin-top:25px;
   height: 200px;
   border: 1px solid #333;
 }
@@ -176,9 +176,11 @@ nav a {
 }
 
 #grafico{
-  height: 500px;
-  width: 1000px;
-  margin-left: 80px;
+  display:grid;
+  justify-content: flex-end;
+  height: 100%;
+  width: 100%;
+
 }
 
 #forma{
@@ -244,3 +246,68 @@ footer {
             transform: scale(1.5);
   }
 }
+/* Mixin white-gradient */
+.white-gradient {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 7));
+  }
+}
+
+/* Styling */
+.slider {
+  background: white;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: 960px;
+}
+
+.slider::before,
+.slider::after {
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  content: "";
+  height: 100px;
+  position: absolute;
+  width: 200px;
+  z-index: 2;
+}
+
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
+.slider::before {
+  left: 0;
+  top: 0;
+}
+
+.slide-track {
+  animation: scroll 40s linear infinite;
+  display: flex;
+  width: calc(250px * 14);
+}
+
+.slide {
+  height: 100px;
+  width: 250px;
+}
+
