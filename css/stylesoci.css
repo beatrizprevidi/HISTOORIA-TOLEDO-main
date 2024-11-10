@@ -78,6 +78,15 @@ nav a:hover{
     text-align: center;
     font-family: "Montserrat", sans-serif;
 }
+#ref{
+  color: white;
+  font-size: 20px;
+  margin-top: 18px;
+  display: flex;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
 #atual{
   color: white;
   font-size: 50px;

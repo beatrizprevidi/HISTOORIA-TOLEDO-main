@@ -50,7 +50,15 @@ nav a:hover{
 #exit{
   overflow: hidden;
 }
-
+#ref{
+  color: white;
+  font-size: 20px;
+  margin-top: 18px;
+  display: flex;
+  font-weight: bold;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+} 
 #sociedadeatual{
   color: white;
   font-size: 20px;

@@ -84,6 +84,15 @@ nav a:hover{
     text-align: center;
     font-family: "Montserrat", sans-serif;
 }
+#ref{
+    color: white;
+    font-size: 20px;
+    margin-top: 18px;
+    display: flex;
+    font-weight: bold;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+  }
 #titulo1{
     color: white;
     font-size: 50px;
@@ -260,7 +269,7 @@ nav a:hover{
 .VIEW a{
         /* -webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
                   animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both; */
-                  scale: 1.1;
+
     color:white;
 }
 
@@ -297,8 +306,8 @@ footer {
             transform: scale(1);
   }
   100% {
-    -webkit-transform: scale(1.5);
-            transform: scale(1.5);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
   }
 }
 @keyframes scale-up-center {
@@ -307,8 +316,8 @@ footer {
             transform: scale(1);
   }
   100% {
-    -webkit-transform: scale(1.5);
-            transform: scale(1.5);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
   }
   
 }
