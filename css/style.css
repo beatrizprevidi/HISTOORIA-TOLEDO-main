@@ -321,3 +321,103 @@ footer {
   }
   
 }
+
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        height: 100%;
+        background-size: cover; 
+    }
+
+    #titulohistooria {
+        font-size: 50px; /* Reduz tamanho da fonte  do header em cima */
+        text-align: center;
+    }
+
+    .container, #page1 {
+        flex-direction: column; 
+        gap: 20px;
+    }
+
+    #botoms {
+        flex-direction: column;
+        height: auto; 
+    }
+
+    #titulo1, #titulo2 {
+        font-size: 30px;
+        margin-left: 20px;
+    }
+
+    .monumentos, #lago1, #lago2, #lago3 {
+        flex-direction: column; 
+        align-items: center;
+        gap: 15px; 
+    }
+
+    .image, .lagoimage, .imagefds {
+        width: 80%; 
+        margin: 0 auto; 
+    }
+
+    .VIEW {
+        width: 100px; 
+        margin: 20px auto; 
+    }
+
+    footer {
+        padding: 10px;
+        font-size: 12px;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    #titulohistooria {
+        font-size: 70px;
+    }
+
+    #botoms {
+        height: 50px; 
+        font-size: 14px;
+    }
+
+    #titulo1, #titulo2 {
+        font-size: 40px; 
+    }
+
+    .monumentos, #lago1, #lago2, #lago3 {
+        gap: 20px;
+    }
+
+    .image, .lagoimage, .imagefds {
+        width: 90%; 
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
+
+@media (min-width: 1025px) {
+    #titulohistooria {
+        font-size: 100px;
+    }
+
+    #titulo1, #titulo2 {
+        font-size: 50px;
+    }
+
+    .monumentos {
+        flex-wrap: wrap; 
+        justify-content: center;
+    }
+
+    footer {
+        font-size: 16px;
+    }
+}

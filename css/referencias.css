@@ -4,6 +4,11 @@
 }
 body{
     background-color: rgb(91, 91, 91);
+    margin: 0;
+    display: grid;
+ 
+    height: 100vh; 
+    background-color: #333; 
 }
 
 header{
@@ -83,4 +88,81 @@ nav a:hover{
     font-weight: bold;
     text-align: center;
     font-family: "Montserrat", sans-serif;
+}
+#main{
+    display: grid;
+    justify-content: center;
+
+}
+.links {
+    justify-content: center;
+    color: white;
+    text-decoration: none; 
+    font-size: 1.5rem; 
+  }
+
+  .links:hover {
+    color: lightblue; 
+  }
+
+
+
+  @media (max-width: 1024px) {
+    #titulohistooria {
+        font-size: 50px;
+    }
+
+    #botoms {
+        flex-direction: column;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    nav a {
+        font-size: 0.9rem;
+        margin: 5px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        height: 150px;
+    }
+
+    #titulohistooria {
+        font-size: 40px;
+    }
+
+    nav a {
+        font-size: 0.8rem;
+    }
+
+    .links {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        height: 120px;
+    }
+
+    #titulohistooria {
+        font-size: 30px;
+    }
+
+    #botoms {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav a {
+        font-size: 0.7rem;
+        margin: 5px 0;
+    }
+
+    .links {
+        font-size: 1rem;
+        text-align: center;
+    }
 }
